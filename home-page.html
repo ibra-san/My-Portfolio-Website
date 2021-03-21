@@ -7,11 +7,84 @@
     <link rel="stylesheet" href="home-page.css">
     <!--Links for the fonts that are going to be used on the website.-->
     <title>Ibra The Dev Man.</title>
+    <!--Fontawesome icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
     <!--Main container that will hold all the content of the webpage.-->
     <main>
-        
+        <!--Nav Bar and its content-->
+       <nav id="nav-bar-container">
+            <h2 id="right-side-nav">Ibra The Dev Man</h2>
+            <ul id="left-side-nav">
+                <a class="nav-links" href="#about"><li > About</li></a>
+                <a class="nav-links" href="#projects"><li > Projects</li></a>
+                <a class="nav-links" id="contact-link" href="#contact"><li > Contact</li></a>
+            </ul>
+       </nav> 
+       <!--Cover Image and its content-->
+       <section id="cover-image-container">
+           <img id="cover-image" src="images\Home Page Cover.png" alt="home page cover image">
+       </section>
+       <!--About area and its content-->
+       <section id="about">
+           <div id="about-page-container">
+               <img id="about-page-content" src="images\About Me Page.png" alt="About me page content">
+
+                <div class="top-button-container" id="about-top-container">
+                    <a class="top-button" id="about-top-button" href="#nav-bar-container">
+                        <button class="top-button-text" id="about-top-text">BACK TO THE TOP</button>
+                    </a>
+                </div>
+
+                <div class="tactme-button-container" id="tactme-top-container">
+                    <a class="top-button" id="tactme-button" href="#contact">
+                        <button class="top-button-text" id="tactme-text">CONTACT ME</button>
+                    </a>
+                </div>
+
+
+           </div>
+       </section>
+
+       <!--Projects area and its content-->
+       <section id="projects">
+        <div id="projects-page-container">
+            <img id="projects-page-content" src="images\Projects-page.png" alt="Projects Page content">
+            
+            <div class="top-button-container" id="projects-top-container">
+                <a class="top-button" id="project-top-button" href="#nav-bar-container">
+                     <button class="top-button-text" id="project-top-text">BACK TO THE TOP</button>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Contacts area and its content-->
+    <section id="contact">
+        <div id="contact-page-container">
+            <img id="contact-page-content" src="images\Contact me.png" alt="Contact page content">
+            
+            <div class="top-button-container" id="contacts-top-container">
+                <a class="top-button" id="contacts-top-button" href="#nav-bar-container">
+                    <button class="top-button-text" id="contacts-top-text">BACK TO THE TOP</button>
+                </a>
+            </div>
+
+            <div class="social-media-container">
+                <a class="social-buttons" href="https://twitter.com/Ibrahim_dev_man" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="social-buttons" href="https://www.linkedin.com/in/ibrahimdevsan" target="_blank"><i class="fab fa-linkedin"></i></a>    
+                <a class="social-buttons" href="https://github.com/ibra-san" target="_blank"><i class="fab fa-github"></i></a> 
+                <a class="social-buttons" href="https://codepen.io/ibrahim_dev_man" target="_blank"><i class="fab fa-codepen"></i></a>
+                <a class="social-buttons" href="https://www.facebook.com/ibrahim.san.50596/ " target="_blank"><i class="fab fa-facebook"></i></a> 
+            </div>
+
+            <div class="form-container">
+                <form class="message-form" id="email-form" action=""></form>
+            </div>
+        </div>
+    </section>
     </main>
 </body>
 </html>

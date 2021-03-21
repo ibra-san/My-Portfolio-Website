@@ -30,8 +30,187 @@
     font-family: 'Vesper Libre', serif;
 */
 
+/*Styling the content on the main page first.*/ 
+/*Style for every area of the page.*/
 *{ 
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
 }
 
+/* Styling the body of the page */
+body{ 
+    font-family: 'Roboto Slab', serif;
+    height: 100%;
+}
+
+/*Styling Nav-bar*/
+#nav-bar-container{ 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+#right-side-nav{ 
+    width: 50%;
+    padding: 0.8%;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 1.7rem;
+}
+
+#left-side-nav{ 
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.25%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+
+}
+
+.nav-links{ 
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    list-style: none;
+    text-decoration: none;
+    color: black; 
+    
+}
+.nav-links:hover{ 
+    background-color: blue;
+    color: white;
+    border-radius: 2rem;
+}
+
+
+#contact-link{ 
+    border-radius: 2rem;
+    background-color: gold;
+}
+
+#contact-link:hover{ 
+    border-radius: 2rem;
+    background-color: blue;
+}
+
+/*Styling Home Page Cover Image*/
+#cover-image-container{ 
+    display: flex;
+}
+#cover-image{ 
+    width: 100%;
+}
+
+/*Styling the about me page content.*/
+
+#about-page-content{ 
+    width: 100%;
+    display: flex;
+}
+
+/*Styling the Projects page content.*/
+
+#projects-page-content{ 
+    width: 100%;
+    display: flex;
+}
+
+
+
+/*Styling the Projects page content.*/
+
+#contact-page-content{ 
+    width: 100%;
+    display: flex;
+    
+}
+
+/*Styling the buttons*/ 
+
+
+.top-button-text{ 
+    padding: 0.5%;
+    border-radius: 2rem;
+    background-color: gold;
+    height: 100%;
+    padding: 1.2%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    
+}
+
+.top-button-text:hover{ 
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+/*Positioning buttons*/
+#contact-page-container{ 
+    position: relative;
+}
+#contacts-top-container{ 
+    position:absolute;
+    bottom: 5%;
+    left: 42% ;
+    height: auto;
+    width: 100%;
+}
+
+/*Positioning buttons projects*/
+#projects-page-container{ 
+    position:relative;
+}
+
+#projects-top-container{ 
+    position:absolute;
+    bottom: 30%;
+    left: 77% ;
+    height: auto;
+    width: 100%;
+}
+
+
+/*Positioning buttons projects*/
+#about-page-container{ 
+    position:relative;
+}
+
+#about-top-container{ 
+    position:absolute;
+    bottom: 5%;
+    left: 45% ;
+    height: auto;
+    width: 100%;
+}
+
+
+
+.tactme-button-container{ 
+    position: absolute;
+    bottom: 37%;
+    left: 7% ;
+    height: auto;
+    width: 100%;
+
+}
+
+.social-media-container{ 
+    position: absolute;
+    bottom: 33%;
+    left: 33%;
+    width: 100%;
+}
+
+.social-buttons{ 
+    text-decoration: none;
+    color: white;
+    font-size: 4.5rem;
+    padding: 1%;
+
+}
