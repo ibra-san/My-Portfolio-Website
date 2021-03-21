@@ -36,7 +36,9 @@
     margin: 0%;
     padding: 0%;
 }
-
+html{ 
+    overflow-x:hidden;
+}
 /* Styling the body of the page */
 body{ 
     font-family: 'Roboto Slab', serif;
@@ -213,4 +215,100 @@ body{
     font-size: 4.5rem;
     padding: 1%;
 
+}
+
+.social-buttons:hover{ 
+    color: lightblue;
+}
+
+/*Styling of the Form*/
+.form-container{ 
+    position: absolute;
+    bottom: 15%;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 25vw;
+
+}
+
+/*
+
+.form-content{ 
+    background: transparent;  
+    border: none;
+    outline: none;
+    border-bottom: 1px solid orangered;
+    color:palegoldenrod;
+    font-family: 'Roboto Slab', serif;
+    padding: 3%;
+}
+
+
+form .submit{ 
+    background-color: white;
+    border-color: transparent;
+    padding: 2%;
+    margin: 3%;
+    border-radius: 1rem;
+    color: black;
+}
+
+
+form .submit:hover{ 
+    background-color: orangered;
+    color: white ;
+    cursor: pointer;
+}*/
+
+.website-footer{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+    background-color: black;
+    color: white;
+    padding-top: 2%;
+    
+}
+
+#footer-right-side{ 
+    font-size: 1rem;
+    width: 35%;
+    padding-bottom: 0.2%;
+}
+
+#footer-middle{ 
+    width: 35%;
+    font-size: 0.5rem;
+    padding-bottom: 0.2%;
+    text-align: right;
+}
+
+#page-map{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.page-map-link{ 
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 2%;
+}
+
+.page-map-link:hover{ 
+    color: black;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+#footer-left-side{ 
+    width: 35%;
+    padding-bottom: 0.2%;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    text-align: right;
+    padding-right: 0.7%;
 }
